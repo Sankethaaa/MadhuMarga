@@ -1,5 +1,3 @@
-app/src/main/java/com/example/madhumarga/MainActivity.kt
-
 package com.example.madhumarga
 
 import android.os.Bundle
