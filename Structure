@@ -1,6 +1,22 @@
 MadhuMargaApp/
- └── app/
-     └── src/
-         └── main/
-             ├── java/com/example/madhumarga/
-             └── res/
+ ├── app/
+ │   ├── src/main/java/com/example/madhumarga/
+ │   │   ├── MainActivity.kt
+ │   │   ├── ui/
+ │   │   │   ├── HomeScreen.kt
+ │   │   │   ├── HiveScreen.kt
+ │   │   │   ├── LogScreen.kt
+ │   │   │   └── Components.kt
+ │   │   ├── data/
+ │   │   │   ├── Hive.kt
+ │   │   │   ├── HiveDao.kt
+ │   │   │   └── AppDatabase.kt
+ │   │   ├── viewmodel/
+ │   │   │   └── HiveViewModel.kt
+ │   │   └── utils/
+ │   │       └── Constants.kt
+ │   ├── res/layout/activity_main.xml
+ │   └── AndroidManifest.xml
+ ├── build.gradle
+ ├── settings.gradle
+ └── README.md
